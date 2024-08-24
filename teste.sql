@@ -18,7 +18,7 @@ update usuarios set nome = 'Diego' where id = 2;
 create table endereco (
 	rua varchar(255) NOT NULL,
 	id_usuario int,
-    FOREIGN KEY (id_usuario) references usuarios(id)
+    CONSTRAINT FK_IdUsuario FOREIGN KEY (id_usuario) references usuarios(id)
 );
 
 select * from endereco;
