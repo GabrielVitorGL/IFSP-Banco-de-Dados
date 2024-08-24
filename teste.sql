@@ -23,6 +23,6 @@ create table endereco (
 
 select * from endereco;
 
-insert into endereco(rua, id_usuario) values ('Rua dos bobos', 3);
+insert into endereco(rua, id_usuario) values ('Rua 01', 3);
 
 drop table endereco;
